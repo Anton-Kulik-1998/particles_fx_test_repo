@@ -97,3 +97,136 @@ ParticlesFX(
 ## 🛠️ Configuration
 
 ### Particle Settings
+
+|Parameter | Type	| Default | Description|
+|----------|------|---------|------------|
+| numPoints            | int          | 50   | Number of particles           |
+| maxSpeed             | double       | 1.0  | Maximum particle speed        |
+| enablePointCollision | bool         | true | Enable particle collisions    |
+| assetImages          | List<String> | []   | Images to use instead of dots | 
+
+### Line Settings
+
+```dart
+LineSettings(
+  enableLines: true,
+  maxLineDistance: 120,
+  lineWidth: 1.5,
+  lineColorFading: true,
+)
+```
+
+### Animation Settings
+
+```dart
+ParticleAnimationSettings(
+  particlesAnimationSeconds: 60,
+  initOpacityAnimationSeconds: 2,
+  enableInitOpacityAnimation: true,
+)
+```
+
+## 🎨 Customization Examples
+
+### Triangle Fill Effect
+
+```dart
+ParticlesFX(
+  lineSettings: LineSettings(
+    enableTriangleFill: true,
+    triangleColor: Colors.purple.withOpacity(0.1),
+  ),
+)
+```
+<img src="https://via.placeholder.com/300x200?text=Triangle+Effect+Preview" width="100%"/>
+
+### Touch Interaction
+
+```dart
+ParticlesFX(
+  touchReactionSettings: TouchReactionSettings(
+    enableTouchReaction: true,
+    maxTouchDistance: 150,
+    touchSpeedMultiplier: 3.0,
+  ),
+)
+```
+
+## 📚 API Reference
+
+### Main Classes
+
+| Class      | Description |
+|------------|-------------|
+|ParticlesFX      | Main widget                | 
+|ParticleSettings | Controls particle behavior | 
+|LineSettings     | Configures connections     | 
+|StyleSettings    | Visual styling options     | 
+
+### Advanced Control
+
+```dart
+// Access particles manager
+_particlesManager.updatePointsPosition();
+
+// Control animations
+_particlessAnimation.pausingAnimation();
+```
+
+## 🏆 Best Practices
+
+1. Particle Count:
+  - <100 particles: ParticlesUpdateMode.doubleCycleMode
+  - 100 particles: ParticlesUpdateMode.quadtreeMode
+2. Performance Tips:
+  ```dart 
+  // Disable collisions when not needed
+  ParticleSettings(enablePointCollision: false);
+
+  // Reduce line distance checks
+  LineSettings(maxLineDistance: 80);
+  ```
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our contribution guidelines.
+
+## 📜 License
+
+MIT © [Anton Kulik]
+
+<div align="center"> Made with ❤️ and Flutter </div> 
+
+Key Features of This README:
+
+Visual Hierarchy:
+Emoji headers for quick scanning
+Consistent section styling
+Placeholder images for visual examples
+Comprehensive Sections:
+Installation instructions
+Basic to advanced usage examples
+Configuration references
+API overview
+Best practices
+Interactive Elements:
+Badges for version/license
+Tabular data for settings
+Code blocks with syntax highlighting
+Professional Touches:
+Contribution section
+License information
+Responsive image placeholders
+Optimized for Pub.dev:
+Clear feature showcase at top
+Multiple usage examples
+Visual previews
+
+To use:
+
+1. Replace placeholder images with actual screenshots
+2. Update the license information
+3. Add your contribution guidelines link
+4. Customize the "Made with" footer
+
+The README follows Flutter package best practices while maintaining visual appeal and clear information architecture.
