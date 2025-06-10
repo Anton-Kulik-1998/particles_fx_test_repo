@@ -1,4 +1,4 @@
-# ParticlesFX 🌌✨
+# ParticlesFX
 
 <p align="center">
   <img src="https://github.com/Anton-Kulik-1998/particles_fx_test_repo/blob/main/assets/logo.png" alt="ParticlesFX Logo" width="100%"/>
@@ -36,3 +36,64 @@ Add to your `pubspec.yaml`:
 ```yaml
 dependencies:
   particles_fx: ^1.0.0
+```
+
+Then run:
+
+```bash
+flutter pub get
+```
+
+## 🧑‍💻 Usage
+
+### Basic Setup
+
+```dart
+import 'package:particles_fx/particles_fx.dart';
+
+ParticlesFX(
+  width: 300,
+  height: 200,
+  particleSettings: ParticleSettings(
+    numPoints: 50,
+    maxSpeed: 1.5,
+  ),
+)
+```
+
+<img src="https://via.placeholder.com/300x200?text=Basic+Example+Preview" width="100%"/>
+
+### With Lines Between Particles
+
+```dart
+ParticlesFX(
+  width: MediaQuery.of(context).size.width,
+  height: 300,
+  lineSettings: LineSettings(
+    enableLines: true,
+    maxLineDistance: 100,
+    lineColor: Colors.blue.withOpacity(0.3),
+  ),
+)
+```
+<img src="https://via.placeholder.com/300x200?text=Lines+Example+Preview" width="100%"/>
+
+### Using Custom Images
+
+```dart
+ParticlesFX(
+  width: 400,
+  height: 400,
+  particleSettings: ParticleSettings(
+    numPoints: 30,
+    assetImages: ['assets/particle.png'],
+    imageSize: 24,
+  ),
+)
+```
+
+<img src="https://via.placeholder.com/300x200?text=Images+Example+Preview" width="100%"/>
+
+## 🛠️ Configuration
+
+### Particle Settings
