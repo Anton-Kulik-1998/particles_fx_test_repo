@@ -24,9 +24,9 @@
 - 🏎️ **Performance optimized** (quadtree, smart updates)
 
 <div align="center">
-  <img src="https://via.placeholder.com/300x200?text=Basic+Example" width="30%"/>
-  <img src="https://via.placeholder.com/300x200?text=Lines+Example" width="30%"/>
-  <img src="https://via.placeholder.com/300x200?text=Images+Example" width="30%"/>
+  <img src="https://github.com/Anton-Kulik-1998/particles_fx_test_repo/blob/main/assets/temporary_image.png" width="30%"/>
+  <img src="https://github.com/Anton-Kulik-1998/particles_fx_test_repo/blob/main/assets/temporary_image.png" width="30%"/>
+  <img src="https://github.com/Anton-Kulik-1998/particles_fx_test_repo/blob/main/assets/temporary_image.png" width="30%"/>
 </div>
 
 ## 🚀 Installation
@@ -61,7 +61,7 @@ ParticlesFX(
 )
 ```
 
-<img src="https://via.placeholder.com/300x200?text=Basic+Example+Preview" width="100%"/>
+<img src="https://github.com/Anton-Kulik-1998/particles_fx_test_repo/blob/main/assets/temporary_image.png" width="100%"/>
 
 ### With Lines Between Particles
 
@@ -76,7 +76,7 @@ ParticlesFX(
   ),
 )
 ```
-<img src="https://via.placeholder.com/300x200?text=Lines+Example+Preview" width="100%"/>
+<img src="https://github.com/Anton-Kulik-1998/particles_fx_test_repo/blob/main/assets/temporary_image.png" width="100%"/>
 
 ### Using Custom Images
 
@@ -92,7 +92,7 @@ ParticlesFX(
 )
 ```
 
-<img src="https://via.placeholder.com/300x200?text=Images+Example+Preview" width="100%"/>
+<img src="https://github.com/Anton-Kulik-1998/particles_fx_test_repo/blob/main/assets/temporary_image.png" width="100%"/>
 
 ## 🛠️ Configuration
 
@@ -138,7 +138,7 @@ ParticlesFX(
   ),
 )
 ```
-<img src="https://via.placeholder.com/300x200?text=Triangle+Effect+Preview" width="100%"/>
+<img src="https://github.com/Anton-Kulik-1998/particles_fx_test_repo/blob/main/assets/temporary_image.png" width="100%"/>
 
 ### Touch Interaction
 
