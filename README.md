@@ -1,7 +1,7 @@
 # ParticlesFX 🌌✨
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400?text=ParticlesFX+Demo" alt="ParticlesFX Demo" width="100%"/>
+  <img src="https://github.com/Anton-Kulik-1998/particles_fx_test_repo/blob/main/assets/logo.png" alt="ParticlesFX Logo" width="100%"/>
   <br>
   <em>A beautiful, performant particle animation system for Flutter apps</em>
 </p>
